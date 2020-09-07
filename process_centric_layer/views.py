@@ -26,8 +26,11 @@ class SearchesProcessCentricView(View):
                       ]
                     }
 
-        if intent_name == 'search':
-            response = requests.get(f"http://{settings.SERVICE_BUSINESS_LOGIC_HOST}:{settings.SERVICE_BUSINESS_LOGIC_PORT}/{settings.SERVICE_BUSINESS_LOGIC}/search", parameters)
+        try:
+            if intent_name == 'search':
+                response = requests.get(f"http://{settings.SERVICE_BUSINESS_LOGIC_HOST}:{settings.SERVICE_BUSINESS_LOGIC_PORT}/{settings.SERVICE_BUSINESS_LOGIC}/search", parameters)
+        except:
+            print('Error in business logic response')
 
         return JsonResponse(response.json(), safe=False)
 
