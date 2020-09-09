@@ -1,6 +1,5 @@
 # ProcessCentricSearch
-# BusinessLogicSearch
-The Business Logic Search is a Business Logic service that manages the requests related to retrieve information for a specific search. It returns a message containing the results found or a message error.
+The Process Centric Search is a Process Centric service that forwards the HTTP requests to the Business Logic Search in order to properly manage and elaborate the user request.
 
 The information about the API are available in the [Wiki page](https://github.com/SDEProject/ProcessCentricSearch/wiki).
 The service is running at [process-centric-search.herokuapp.com/](https://process-centric-search.herokuapp.com/).
