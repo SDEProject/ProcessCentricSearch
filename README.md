@@ -11,11 +11,23 @@ The bot is able to understand the following sentences:
 **Search**
 The complete list of accepted type of sentences:
 * Show me the hotels in which I can checkin [at 14.30]
-* Give me the hotels in Bolzano where I can checkin [at 11]
+* Give me the hotels in [Bolzano] where I can checkin [at 11]
 * Please return the accommodations in [Rovereto]
 * Show me the bed and breakfast in [Alto Adige]
 * I want to see some hotels
-* 
+* Can you show me some [local traditional] shops in [Bolzano]?
+* I'd like to see some [toys] shops in [Alto Adige]
+* Show the list of [book] shops
+* Please show the mountain paths with [medium] difficulty and [without equipment required]
+* I was wondering if you can find some smooth activity paths
+* Can you find for me some [low] difficulty paths?
+* Are you able to find some mountain paths [with equipment required]?
+* Can you show me the details of the activity path from [selletta battisti] to [sella della trappola]
+* Show me all the trekking paths starting in [luserna]
+* Can you show me the mountain paths with number [345]?
+* I'm interested in the [attractions] in [Merano]
+* Can you tell me the [restaurants] in [Alto Adige]?
+* Please give me the list of [emergency services]
 
 **Save**
 * Can you please save the [search]?
